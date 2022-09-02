@@ -63,19 +63,6 @@
                 name: "烧香河",
                 url: "data/sxh.json",
                 format: simplifyGeoJSON, // 用于自定义处理geojson
-                symbol: {
-                    type: "polylineP",
-                    styleOptions: {
-                        width: 2,
-                        materialType: mars3d.MaterialType.LineFlow,
-                        materialOptions: {
-                            color: "#00ffff",
-                            image: "img/textures/fence-line.png",
-                            speed: 20,
-                            repeat_x: 40
-                        },
-                    }
-                },
                 flyTo: true
             })
             map.addLayer(graphicLayer2)
